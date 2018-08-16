@@ -1,0 +1,12 @@
+/bower_components
+/dist
+/tests
+/tmp
+**/.gitkeep
+.bowerrc
+.editorconfig
+.gitignore
+.eslintrc.js
+.travis.yml
+bower.json
+testem.js

@@ -1,4 +1,4 @@
-Vue Undo Redo
+Vue Undo Redo Stack
 ======
 
 This simple mixin adds unopinionated undo/redo logic to a Vue Mixin. You can easily control what data is added to the undo/redo stack.
@@ -12,13 +12,13 @@ This simple mixin adds unopinionated undo/redo logic to a Vue Mixin. You can eas
 With NPM:
 
 ```sh
-npm install --save-dev vue-undo-redo
+npm install --save-dev vue-undo-redo-stack
 ```
 
 With Yarn:
 
 ```sh
-yarn add vue-undo-redo
+yarn add vue-undo-redo-stack
 ```
 
 ## Usage
