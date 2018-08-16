@@ -25,7 +25,7 @@ yarn add vue-undo-redo
 
 Add the Mixin to any Vue Component and implement a `checkpointData` computed property and a `restoreCheckpoint()` method:
 
-```js
+```html
 <template>
   <!-- ... -->
 </template>
@@ -41,13 +41,13 @@ Add the Mixin to any Vue Component and implement a `checkpointData` computed pro
 
     computed: {
       checkpointData() {
-        return this.name; // 2. Add some data to the stack
+        return this.name; // 2. Declare what data to stack when this.checkpoint() is called
       },
     },
 
     methods: {
       restoreCheckpoint(checkpointData) {
-        this.namw = checkpointData; // 3. Use the object that is being restored
+        this.name = checkpointData; // 3. Restore the component's properties given the to-be-restored checkpoint's data
       },
     },
   }
@@ -62,7 +62,7 @@ Three methods are made available on this component:
 
 These methods can be used as follows to enable undo and redo functionality:
 
-```js
+```html
 <template>
   <!-- ... -->
 </template>
