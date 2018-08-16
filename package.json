@@ -1,0 +1,25 @@
+{
+  "name": "vue-undo-redo",
+  "version": "1.0.0",
+  "description": "A simple Vue Mixin that adds an undo/redo stack to any Vue Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sir-dunxalot/vue-undo-redo.git"
+  },
+  "keywords": [
+    "vue",
+    "undo",
+    "redo",
+    "mixin"
+  ],
+  "author": "Duncan Walker <duncangrahamwalker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sir-dunxalot/vue-undo-redo/issues"
+  },
+  "homepage": "https://github.com/sir-dunxalot/vue-undo-redo#readme"
+}
